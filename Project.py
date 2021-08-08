@@ -3,14 +3,7 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import json
 import sentiment_mod as s
-
-#consumer key, consumer secret, access token, access secret.
-ckey="asdfsafsafsaf"
-csecret="asdfasdfsadfsa"
-atoken="asdfsadfsafsaf-asdfsaf"
-asecret="asdfsadfsadfsadfsadfsad"
-
-
+# A basic comment to understand the working of git 
 class listener(StreamListener):
     
     def on_data(self, data):
